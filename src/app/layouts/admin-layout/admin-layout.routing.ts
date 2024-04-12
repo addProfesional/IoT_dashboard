@@ -9,6 +9,8 @@ import { TablesComponent } from "../../pages/tables/tables.component";
 import { TypographyComponent } from "../../pages/typography/typography.component";
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
+import { DevicesComponent } from "../../pages/devices/devices.component";
+
 export const AdminLayoutRoutes: Routes = [
   { path: "dashboard", component: DashboardComponent },
   { path: "icons", component: IconsComponent },
@@ -18,4 +20,5 @@ export const AdminLayoutRoutes: Routes = [
   { path: "tables", component: TablesComponent },
   { path: "typography", component: TypographyComponent },
   // { path: "rtl", component: RtlComponent }
+  { path: "devices", component: DevicesComponent }
 ];
