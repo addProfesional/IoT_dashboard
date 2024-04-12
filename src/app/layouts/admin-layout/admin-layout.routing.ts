@@ -11,6 +11,7 @@ import { TypographyComponent } from "../../pages/typography/typography.component
 
 import { DevicesComponent } from "../../pages/devices/devices.component";
 import { UsersComponent } from "../../pages/users/users.component";
+import { MovementsComponent } from "../../pages/movements/movements.component";
 
 export const AdminLayoutRoutes: Routes = [
   { path: "dashboard", component: DashboardComponent },
@@ -22,5 +23,6 @@ export const AdminLayoutRoutes: Routes = [
   { path: "typography", component: TypographyComponent },
   // { path: "rtl", component: RtlComponent }
   { path: "devices", component: DevicesComponent },
-  { path: "users", component: UsersComponent }
+  { path: "users", component: UsersComponent },
+  { path: "movements", component: MovementsComponent },
 ];

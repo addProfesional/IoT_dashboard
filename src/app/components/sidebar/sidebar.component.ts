@@ -50,13 +50,13 @@ export const ROUTES: RouteInfo[] = [
     icon: "icon-puzzle-10",
     class: ""
   },
-  {
+  /* {
     path: "/typography",
     title: "Typography",
     rtlTitle: "طباعة",
     icon: "icon-align-center",
     class: ""
-  },
+  }, */
   /* {
     path: "/rtl",
     title: "RTL Support",
@@ -74,6 +74,13 @@ export const ROUTES: RouteInfo[] = [
   {
     path: "/users",
     title: "Users",
+    rtlTitle: "ملف تعريفي للمستخدم",
+    icon: "icon-single-02",
+    class: ""
+  },
+  {
+    path: "/movements",
+    title: "Movements",
     rtlTitle: "ملف تعريفي للمستخدم",
     icon: "icon-single-02",
     class: ""

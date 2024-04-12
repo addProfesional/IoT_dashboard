@@ -16,6 +16,7 @@ import { TypographyComponent } from "../../pages/typography/typography.component
 
 import { DevicesComponent } from "../../pages/devices/devices.component";
 import { UsersComponent } from "../../pages/users/users.component";
+import { MovementsComponent } from "../../pages/movements/movements.component";
 
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 
@@ -37,7 +38,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
     MapComponent,
     // RtlComponent
     DevicesComponent,
-    UsersComponent
+    UsersComponent,
+    MovementsComponent
   ]
 })
 export class AdminLayoutModule {}
